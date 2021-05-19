@@ -1,204 +1,88 @@
 
- .a{
+ a {
    text-decoration: none;
-   color: inherit;
+   color: inhirit;
  }
- .header {
+ .header{
    display: flex;
    justify-content: space-between;
    align-items: center;
    height: 70px;
    padding: 0 30px;
-   color:#888888
  }
- .header-ttl{
-   font-size: 24px;
-   width: 80%;
- }
- 
- .header-nav-list{
-   display: flex;
-   justify-content: flex-end;
-   margin: 10px;
+ .header-ttl {
+content:url(../cestra_logo.png)
+position: absolute;
+top: 5px;
+left: 0;
+}
+.header-nav-list{
+  display: flex;
+  font-weight: bold;
+}
+.header-nav-item:not(:last-child){
+  margin-right: 30px;
+}
+.relative{
+  position: relative;
   }
-  
- .header-nav-item:not(:last-child) {
-   margin-right: 30px;
- }
-  .firstview-jpg {
-    position: relative;
-    top :30%
+  .relative_img{
+    margin: 0 0 0 auto;
+    display: block;
+    width: 50%;
   }
- img{
- ul{
-   list-style: none;
-   margin:0;
- }
- ul{
-   list-style: none;
-   margin: 0;
-   display: flex;
- }
- li{
-   margin:0 0 0 15px;
-   font-size: 14px;
- }
- .relative {
-   position: relative;
- }
- .relative_img{
-   margin: 0 0 0 auto;
-   display: block;
-   width: 50%;
- }
- .absolute {
-   position: absolute;
-   top: 50px;
-   left: 650px;
-   font-size: 50px;
- }
-  
-
- p::before{
-  content:”全ての人の";
- color: red;
- }
- P::after {
-   content:"にコミットする"
-   color: red;
- }
- .span {
-   line height:24px
-   color: #808080;
- }
-
- p.font1{
-   font-family: ’Comic Sans MS’
- }
-
- .news{
-   padding:300px 0;
-   background: red;
- }
- .inner{
-   width: 80%;
-   background-color: #fff
-   margin:0 auto;
-   padding: 65px 0 100px
- }
- .sub_ttl{
-   font-size: 30px
-   text-align: center;
-   margin-bottom: 40px;
- }
- /*ここからがニューズ記事css*/
- dl{
-   width: 500px;
- }
- dt{
-   border-bottom:1px soild #ccc;
-   float:left;
-   padding:10px 5px;
- }
- dd{
-   border-bottom:1px solid #ccc;
-   margin-left:100px;
-   padding:10px 5px;
- }
- .a{
-   background-color:red;
-   border-radius:5px;
-   color:#fff;
-   margin:0 20px;
-   padding:5px 15px;
-   text-decoration:none;
- }
-
- .about{
-   background-color: #ebeebe;
-   padding: 60px 0;
-   margin-top: 200px;
-   display: flex;
-   justify-content: space-around;
- }
- .about_img img{
-   width: 100%
- }
- .about_img img{
-   margin-top: -80px;
-   width: 40%;
- }
- about_content{
-   width: 40%;
- }
- .flex_items{
-   display: flex;
-   justify-content: space-between;
- }
- .practice_card{
-   width: 30%
-   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
- }
- .card_img img{
-   width: 100%;
- }
- .card_content{
-   padding: 15px 25px;
- }
- .card_ttl{
-   font-size: 18px;
-   margin-bottom: 30px;
-   font-weight: 400px;
- }
- .card_cat{
-   padding: 5px 10px;
-   background: #008888;
-   margin-bottom: 15px;
-   display: inline-block;
-   color: #fff;
-   font-size: 14px;
- }
- .tag{
-   font-size: 14px;
-   text-align: right;
- }
- .card_tag{
-   display: inline-block;
-   color: #008888
- }
- .card_date{
-   display:inline-block;
-   margin-left: 20px;
-   color: #888888
- }
- .download_bnt{
-   position: relative;
-   background-color: #55bbbb;
-   width: 200px;
-   display: block;
-   padding: 18;
-   text-align: center;
-   color: #fff;
-   font-size: 16px;
-   font-weight: bold;
-   text-decoration: none;
-   border-radius: 30px;
-   margin: 100px auto;
- }
- table{
-   width: 60%;
-   border-collapse: collapse;
- }
- table th,
- 
- table td{
-   border: 1px solid #ccc;
-   padding: 20px;
- }
- table th{
-   font-weight: bold;
-   background-color: #dedede;
-   }
-  a.btn-gradient{
-     border-radius: 100vh;
-   } 
+  .absolute {
+  position: absolute;
+  top: 50%;
+  left: 23%;
+  font-size: 50px;
+  }
+  p::after {
+    content: "成長"；
+    color: #0000FF
+  }
+  .copyright{
+    font-size: 12px;
+  }
+  .news{
+    font-family: 'Pattaya', sans-serif;
+  }
+  ul{
+    width: 500px;
+  }
+  li{
+    display: flex;
+    padding:15px;
+    border-bottom:1px solid #000;
+  }
+  .day{
+  }
+  .label{
+    background-color: red;
+    border-radius:3px;
+    color: #fff;
+    padding: 2px 5px;
+    margin:0 20px;
+  }
+  .text{
+  }
+  .about{
+    background-color: grey;
+    padding: 60px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    }
+    .about__img img{
+      width: 100%;
+    }
+    .about__img{
+      margin-top: -80px;
+      width: 40%;
+    }
+    .about__content{
+      width: 40%;
+    }
+    .about__content-ttl{
+      font-family: 'Pattaya', sans-serif;
+    }
